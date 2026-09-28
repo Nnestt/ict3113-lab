@@ -1,0 +1,59 @@
+*.pdf
+graphify-out/
+.graphify-deps/
+docs/
+*.feature.cs
+
+
+# Build output
+bin/
+obj/
+out/
+publish/
+
+# Test output and coverage
+TestResults/
+coverage/
+coverage.*/
+*.trx
+*.coverage
+*.coveragexml
+*.opencover.xml
+*.cobertura.xml
+
+# NuGet and local package artifacts
+*.nupkg
+*.snupkg
+packages/
+
+# .NET generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Rider/ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio Code local history extensions
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
