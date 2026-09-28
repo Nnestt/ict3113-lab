@@ -20,7 +20,7 @@ public class CalculatorTests
     {
         double result = _calculator.Add(10, 20);
 
-        Assert.That(result, Is.EqualTo(31));
+        Assert.That(result, Is.EqualTo(30));
     }
 
     // Covers representative addition cases, including zero, negative values, and floating-point precision.
